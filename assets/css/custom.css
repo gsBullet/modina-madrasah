@@ -1,0 +1,401 @@
+/* @font-face {
+  font-family: "ALAQ-DIMASHQ";
+  src: url("../font/alfont_com_ALAQ-DIMASHQ.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "HHHHH";
+  src: url("../font/HidayatullahDemo-mLp39.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RAMADHAN";
+  src: url("../font/RamadhanAmazing-jEnDv.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ALHAMDULILLAH";
+  src: url("../font/AllahMuhammadColor-EaxJ4.ttf") format("truetype");
+} */
+
+@font-face {
+  font-family: "Syawal_Khidmat";
+  src: url("../font/Syawal_Khidmat.woff2") format("woff2"),
+    url("../font/Syawal_Khidmat.ttf") format("truetype"),
+    url("../font/Syawal_Khidmat.otf") format("opentype");
+}
+.bg-0 {
+  background: #fffff2 !important;
+}
+.bg-1 {
+  background: #eeeef2 !important;
+}
+.g-01 {
+  background-color: rgba(250, 235, 215, 0.451) !important;
+}
+.gap {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.header-logo {
+  width: unset;
+  height: 145px;
+}
+.header-title {
+  font-family: "Syawal_Khidmat", Arial, sans-serif !important;
+}
+.arabic-header {
+  font-size: 40px;
+  line-height: 40px;
+  font-family: "Syawal_Khidmat", Arial, sans-serif !important;
+}
+.madrasah-header {
+  font-size: 60px !important;
+  line-height: 60px;
+}
+
+.portal-menu {
+  z-index: 1;
+  display: none;
+}
+@media (max-width: 1200px) {
+  .portal-menu {
+    display: block;
+  }
+}
+ul.namaz-timing-two li {
+  justify-content: start;
+}
+.notice-custom {
+  display: flex;
+  flex-direction: row;
+}
+.notice-date {
+  width: 120px;
+}
+.notice-day-month,
+.notice_year_bg {
+  padding: 7px 0px;
+}
+.notice-day-month {
+  position: relative;
+}
+.notice_day::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: seagreen;
+  border-radius: 50%;
+  position: absolute;
+  top: 7px;
+  left: 10px;
+}
+.notice_day::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: seagreen;
+  border-radius: 50%;
+  position: absolute;
+  top: 7px;
+  right: 10px;
+}
+.notice_day,
+.notice_month {
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  color: black;
+}
+.notice_year {
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  color: white;
+}
+
+.notice-details {
+  width: 100%;
+  padding: 0px 10px;
+}
+.two-bar {
+  padding: 0px !important;
+  margin: 0px !important;
+  width: 100% !important;
+  left: 0px !important;
+  right: 0px !important;
+  justify-content: space-between !important;
+}
+.two-bar::before {
+  border-radius: 0px !important;
+  left: 0px !important;
+  right: 0px !important;
+}
+.two-bar::after {
+  border-radius: 0px !important;
+  left: 0px !important;
+  right: 0px !important;
+}
+
+/* .navbar {
+  padding: -1px;
+} */
+/* .navbar-links {
+  border: 2px solid red;
+}
+.header-search {
+  border: 2px solid red;
+} */
+header.two .two-bar:after {
+  height: 90%;
+}
+
+.navbar-links li a {
+  padding-bottom: 0px !important;
+}
+.header-search-button.search-box-outer {
+  padding-right: 20px;
+}
+/* border: 1px solid red; */
+.custom-notice-btn {
+  background-color: var(--theme-colour);
+  padding: 8px 25px;
+  font-weight: bold;
+  /* position: absolute; */
+  /* right: 0; */
+  border-radius: 52px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  /* bottom: 10px; */
+  font-size: 15px;
+}
+.custom-portal-btn {
+  background-color: var(--theme-colour);
+  padding: 8px 25px;
+  font-weight: bold;
+  right: 0;
+  border-radius: 52px;
+  /* bottom: 10px; */
+  font-size: 15px;
+  /* margin-bottom: 10px; */
+}
+
+/* Gallery Container */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(278px, 1fr));
+  gap: 30px;
+  padding: 20px;
+}
+
+/* Gallery Item */
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 250px;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+/* Hover Effects */
+.gallery-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+/* Overlay */
+.overlay {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  transition: bottom 0.3s ease;
+}
+
+.gallery-item:hover .overlay {
+  bottom: 0;
+}
+
+.overlay p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+  opacity: 1;
+}
+
+/* video gallery  */
+
+.gallery-video {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(278px, 1fr));
+  gap: 30px;
+  padding: 20px;
+}
+
+/* Gallery Item */
+.gallery-video-item {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-video-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* .video-gallery {
+  position: relative;
+  text-align: center;
+} */
+.video-gallery a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, 50%);
+}
+.video-gallery a i {
+  background-color: var(--theme-colour);
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 1;
+
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.video-gallery a i:after {
+  border: 3px solid var(--theme-colour);
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border-radius: 50%;
+  animation: video-button 5s infinite;
+}
+@keyframes video-button {
+  0% {
+    transform: scale(1.4);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.4);
+  }
+}
+.video-gallery a i svg {
+  fill: #fff;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.video-gallery img {
+  width: 100%;
+  height: 250px;
+}
+
+.searchBoxIcon {
+  border-left: 1px solid silver;
+  padding-left: 10px;
+  margin-left: 10px;
+  padding-top: 6px;
+}
+.searchBoxIcon i {
+  cursor: pointer;
+}
+.search-box {
+  display: none; /* Initially hidden */
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  background: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: #ccc;
+  border-radius: 10px;
+  margin-top: 15px;
+  width: 322px;
+}
+
+.search-box input {
+  padding: 5px;
+  width: 250px;
+  /* border: 2px solid seagreen; */
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.search-box button {
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 5px;
+  color: black;
+  background-color: yellow;
+  border-color: antiquewhite;
+}
+
+.masjid-text h3 {
+  font-size: 45px;
+  line-height: 60px;
+  padding-bottom: 20px;
+}
+.widget-title h5 a {
+  font-size: 20px;
+}
+
+.widget-title ul.social-media {
+  margin-top: 25px;
+}
+
+ul.social-media i {
+  height: 34px;
+  width: 34px;
+}
+
+.widget-title h5 a {
+  border-bottom: none;
+}
+.widget-title h5 a:hover {
+  border-bottom: 2px solid;
+}
+
+.info-hover a {
+  color: white;
+}
+.info-hover a:hover {
+  border-bottom: 1px solid yellow;
+  color: yellow;
+}
