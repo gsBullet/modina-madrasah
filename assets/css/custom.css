@@ -37,6 +37,9 @@
   padding-top: 70px;
   padding-bottom: 70px;
 }
+.mardrasah_name {
+  height:234px;
+}
 .header-logo {
   width: unset;
   height: 145px;
@@ -157,28 +160,12 @@ header.two .two-bar:after {
   padding-right: 20px;
 }
 /* border: 1px solid red; */
-.custom-notice-btn {
-  background-color: var(--theme-colour);
-  padding: 8px 25px;
-  font-weight: bold;
-  /* position: absolute; */
-  /* right: 0; */
-  border-radius: 52px;
-  border-bottom-right-radius: 0;
-  border-top-right-radius: 0;
-  /* bottom: 10px; */
-  font-size: 15px;
-}
 .custom-portal-btn {
   background-color: var(--theme-colour);
   padding: 8px 25px;
-  font-weight: bold;
-  right: 0;
-  border-radius: 52px;
-  /* bottom: 10px; */
-  font-size: 15px;
-  /* margin-bottom: 10px; */
 }
+
+
 
 /* Gallery Container */
 
@@ -247,6 +234,7 @@ header.two .two-bar:after {
   grid-template-columns: repeat(auto-fit, minmax(278px, 1fr));
   gap: 30px;
   padding: 20px;
+  align-items: center;
 }
 
 /* Gallery Item */

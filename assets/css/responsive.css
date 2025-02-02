@@ -1,6 +1,6 @@
 @media (max-width: 1400px) {
   .mardrasah_name{
-    height: 189px;
+    height: 234px;
   }
   .hero-section {
     padding-top: 240px;
@@ -392,7 +392,7 @@
 }
 @media (max-width: 1200px) {
   .mardrasah_name{
-    height: 159px;
+    height: 201px;
   }
   .two-bar:before,
   .two-bar:after,
@@ -721,14 +721,14 @@
   img.hero-img-style {
     width: 100% !important;
   }
-  gap {
+  /* .gap {
     margin-top: 70px;
     margin-bottom: 70px;
-  }
+  } */
 }
 @media (max-width: 993px) {
   .mardrasah_name{
-    height: 118px;
+    height: 166.22px;
   }
   .gap {
     padding-top: 60px;
@@ -855,10 +855,7 @@
   .program .heading.two {
     margin-top: 40px;
   }
-  .video {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
+  
   .listen-holy .heading.two {
     padding-top: 100px;
   }
@@ -1021,7 +1018,7 @@
 }
 @media (max-width: 768px) {
   .mardrasah_name{
-    height: 89px;
+    height: 128px;
   }
   h2 {
     font-size: 38px;
@@ -1316,15 +1313,11 @@
     justify-content: center;
     margin-top: 12px;
   }
-  .notice-marque {
-    margin-top: 10px;
-    padding-bottom: 10px;
-  }
 }
 @media (max-width: 576px) {
 
   .mardrasah_name{
-    height: 89px;
+    height: 95px;
   }
   /* .Information ul {
     flex-direction: column;
@@ -1569,14 +1562,10 @@
     justify-content: center;
     margin-top: 12px;
   }
-  .notice-marque {
-    margin-top: 10px;
-    padding-bottom: 10px;
-  }
 }
 @media (max-width: 500px) {
   .mardrasah_name{
-    height: 75px;
+    height: 82px;
   }
   .comment h3 {
     font-size: 28px;
@@ -1598,7 +1587,7 @@
 }
 @media (max-width: 480px) {
   .mardrasah_name{
-    height: 73px;
+    height: 78.88px;
   }
   .hero-section.two {
     padding-top: 14px;
@@ -1609,10 +1598,6 @@
   .hero-img {
     justify-content: center;
     margin-top: 12px;
-  }
-  .notice-marque {
-    margin-top: 10px;
-    padding-bottom: 10px;
   }
   .logos li {
     margin: 0;
@@ -1843,10 +1828,7 @@
     font-size: 14px;
     line-height: 20px;
   }
-  .video {
-    margin-top: 40px;
-    margin-bottom: 0px;
-  }
+
 
   .btn {
     text-transform: capitalize;
@@ -1900,7 +1882,7 @@
 }
 @media (max-width: 450px) {
   .mardrasah_name{
-    height: 67px;
+    height: 73px;
   }
   .hero-section.two {
     padding-top: 14px;
@@ -1913,10 +1895,6 @@
   .hero-img {
     justify-content: center;
     margin-top: 12px;
-  }
-  .notice-marque {
-    margin-top: 10px;
-    padding-bottom: 10px;
   }
   .logos-heading h3 {
     font-size: 28px;
@@ -2131,10 +2109,10 @@
     justify-content: center;
     margin-top: 12px;
   }
-  .notice-marque {
+  /* .notice-marque {
     margin-top: 10px;
     padding-bottom: 10px;
-  }
+  } */
 }
 @media (max-width: 410px) {
   .mardrasah_name{
@@ -2269,18 +2247,14 @@
     justify-content: center;
     margin-top: 12px;
   }
-  .notice-marque {
-    margin-top: 10px;
-    padding-bottom: 10px;
-  }
 }
 @media (max-width: 375px) {
   .mardrasah_name{
-    height: 67px;
+    height: 61px;
   }
   .gap {
     padding-top: 20px;
-    padding-bottom: 0px;
+    padding-bottom: 20px;
   }
   ul.image-gallery li figure {
     width: 134px;
@@ -2391,9 +2365,5 @@
   .hero-img {
     justify-content: center;
     margin-top: 12px;
-  }
-  .notice-marque {
-    margin-top: 10px;
-    padding-bottom: 10px;
   }
 }
